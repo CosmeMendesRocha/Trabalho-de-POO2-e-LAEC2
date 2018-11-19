@@ -10,19 +10,30 @@
      -o-background-size:cover; 
 
  }
+
+  /* MENU */
+
+ .menu{
+    width: 100%;
+    height: 80px;
+    background: #00cecb;
+}
+iframe{
+    width: 100%;
+    padding: 10px;
+}
  #check{
      display: none;
  }
  #icone{
    cursor:  pointer;
-   padding: 15px;
+   padding: 20px;
     position: absolute;
     z-index: 1;
-    
  }
  .barra{
      background-color: #333;
-     height: 100%;
+     height: 800px;
      width: 300px;
      position: absolute;
      transition: all .2s linear;
@@ -65,8 +76,131 @@
  }
  #body{
      margin: 0;
-    padding: 0;
+     padding: 0;
  }
- 
+ a:link{
+     text-decoration: none;
+ }
+ /* LOGIN */
+ .login{
+     width: 100%;
+     margin-top: 30px;
+ }
+ .login{
+     font-family: 'Arial';
+ }
+ .login  h3{
+     color: #222;
+     font-size: 2rem; 
+     margin-left: 20%; 
+ }
+ .login  input{
+     margin-left:20%;
+     align-items: center;
+ }
+ input{
+     left:95px;
+     top:80px;
+     width:230px;
+     height: 30px;
+     display: table;
+     border: none;
+     text-align: left;
+     margin-top: 2%;
+     font-size: 1rem;
+ }
+ button{ 
+     width: 100% ;
+     margin-top: 2% ;
+     margin-left: 20%;
+}
+ button{
+     width: 230px;
+     height: 30px;
+     background: #7c8383c9;
+     font-size: 1rem;
+     border: none;
+     color: #fff;
+     margin-top: 5%;
+ }
+ /* CADASTRO */
+ .cadastro{
+    width: 100%;
+    margin-top: 50px;
+ }
+ .cadastro{
+     font-family: 'Arial';
+ }
+ .cadastro h3{
+    color: #222;
+     font-size: 2rem; 
+     margin-left: 20%;  
+ }
+ .cadastro  input{
+    margin-left:20%;
+    align-items: center;
+}
+/* TERMO DE USO*/
+.termos_uso{
+    width: 100%;
+    display: flex;
+    margin-top: 2%;
+}
+.termos_uso input{
+    width: 25px;
+    display: block;
+    margin-left: 9%; 
+}
+.termos_uso p{
+    font-family: 'Arial';
+    font-size: 0.9rem;
+    margin-top: 3%;
+}
+.termos_uso a{
+    font-style: italic;
+    color: #222;
+    font-size: 1.1rem;
+    text-decoration-line: underline;
+}
+
+
+  /* HOME */
+ .Home{
+     width: 100%;
+ }
+.Home h2{
+    padding-left: 10px;
+    background: #fff;
+    line-height: 3rem;
+    color: #222;
+    border: none;
+}
+p{
+    padding-left: 3%;
+    padding-right: 3%;
+    font-family: 'Arial';
+    font-size: 1.2rem;
+}
+/* EMPRESAS */
+.empresas{
+    width: 100%;
+}
+.empresas h2{
+    font-family: 'Arial';
+    padding-left: 10px;
+    background: #fff;
+    line-height: 3rem;
+    color: #222;
+    border: none;
+}
+.empresas h3{
+    font-family: 'Arial';
+    font-size: 1.1;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+
+
 
 

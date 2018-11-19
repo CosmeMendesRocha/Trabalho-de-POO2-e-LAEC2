@@ -1,0 +1,218 @@
+/* MOBILE FIRST */
+/* SMALL DEVICES - SMARTPHONES */
+
+@media screen and (min-width: 480px){
+    /* MENU */
+    .menu{
+        width: 100%;
+        height: 80px;
+        background: #00cecb;
+    }
+    #icone{
+        cursor:  pointer;
+        padding: 20px;
+         position: absolute;
+         z-index: 1;
+      }
+      .link{font-size: 14pt;}
+
+      /* LOGIN */
+      .login{
+          width: 100%;
+          margin-top: 40px;
+      }
+      .login h3{
+          margin-left: 25%;
+      }
+      .login input{
+          margin-left: 25%;
+      }
+      button{
+          margin-left: 25%;
+      }
+
+      /* CADASTRO */
+      .cadastro{
+          width: 100%;
+      }
+      .cadastro h3{
+          margin-left: 25%;
+      }
+      .cadastro input{
+          margin-left: 25%;
+      }
+      /* TERMO DE USO*/
+      .termos_uso{
+          width: 480px;
+          margin-top: 4%;
+      }
+      .termos_uso input{
+          width: 23px;
+          margin-left: 15%;
+      }
+      .termos_uso p{
+          font-size: 1.1rem;
+      }
+
+      /* HOME */
+      .Home{
+        width: 100%;
+      }
+      .Home h2{
+          padding-left: 20px;
+          margin-top: 15px;
+      }
+      .Home p{
+          padding-left: 4%;
+          margin-top: 3%;
+      }
+
+      /* EMPRESAS */
+      .empresas{
+          width: 100%;
+      }
+      .empresas h2{
+          padding-left: 20px;
+          margin-top: 15px;
+      }
+      .empresas h3{
+          padding-left: 20px;
+      }
+      .empresas p{
+          padding-left: 4%;
+      }
+}
+/* SMALL DEVICES - TABLETS */
+
+@media screen and (min-width: 768px){
+    /* MENU */
+    .menu{
+        width: 100%;
+        height: 80px;
+        background: #00cecb;
+    }
+    .barra{
+        width: 400px;
+        left: -400px;
+    }
+    #check:checked ~.barra{
+        transform: translateX(400px);
+        }
+        img{
+            width: 45px;
+        }
+    .link{
+        font-size: 17pt;
+        padding-left: 5%;
+    }
+
+      /* LOGIN */
+      .login{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .login h3{
+        margin-left: 42%;
+        font-size: 2.5rem;
+    }
+    .login input{
+        margin-left: 32%;
+    }
+    input{
+        left:95px;
+        top:80px;
+        width:280px;
+        height: 40px;
+        display: table;
+        border: none;
+        text-align: left;
+        margin-top: 2%;
+        font-size: 1.4rem;
+    }
+    button{
+        margin-left: 32%;
+        width: 280px;
+        height: 40px;
+        background: #7c8383c9;
+        font-size: 1.4rem;
+        border: none;
+        color: #fff;
+        margin-top: 5%;
+    }
+
+    /* CADASTRO */
+    .cadastro{
+        width: 100%;
+    }
+    .cadastro h3{
+        margin-left: 39%;
+        font-size: 2.5rem;
+    }
+    .cadastro input{
+        margin-left: 32%;
+    }
+    /* TERMO DE USO*/
+    .termos_uso{
+        width: 100%;
+        margin-top: 3%;
+    }
+    .termos_uso input{
+        width: 23px;
+        margin-left: 7%;
+    }
+    .termos_uso p{
+        font-size: 1.3rem;
+        margin-left: -2%;
+    }
+    .termos_uso a{
+        font-size: 1.4rem;
+    }
+
+     /* HOME */
+     .Home{
+        width: 100%;
+      }
+      .Home h2{
+          padding-left: 25px;
+          font-size: 2rem;
+          margin-top: 35px;
+      }
+      .Home p{
+          padding-left: 4%;
+          margin-top: 3%;
+          font-size: 1.5rem
+      }
+          /* EMPRESAS */
+      .empresas{
+          width: 100%;
+         
+      }
+      .empresas h2{
+          padding-left: 20px;
+          font-size: 2rem;
+          margin-top: 35px;
+      }
+      .empresas h3{
+          padding-left: 20px;
+          font-size: 1.6rem;
+      }
+      .empresas p{
+          padding-left: 4%;
+          font-size: 1.5rem;
+          margin-top: 3%;
+          
+      }
+}
+
+/* SMALL DEVICES - TABLETS & DESKTOPS */
+
+@media screen and (min-width: 960px){
+
+  
+}
+/* LARGE DEVICES - WIDE SCREENS */
+
+@media screen and (min-width: 1280px){
+
+   
+ }
