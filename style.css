@@ -8,9 +8,22 @@
         height: 80px;
         background: #00cecb;
     }
+    #logo{
+        position: absolute;
+        left: 170px;
+        width: 50px;
+        padding-top: 2.5%;
+    }
+    h1{
+        font-family: 'Arial';
+        color: #fff;
+        position: absolute;
+        left: 230px;
+        padding-top: 4%;
+    }
     #icone{
         cursor:  pointer;
-        padding: 20px;
+        padding: 10px;
          position: absolute;
          z-index: 1;
       }
@@ -82,6 +95,40 @@
           padding-left: 4%;
       }
 }
+
+@media screen and (min-width: 550px){
+    #logo{
+        position: absolute;
+        left: 220px;
+        width: 50px;
+        padding-top: 2%;
+    }
+    h1{
+        font-family: 'Arial';
+        color: #fff;
+        position: absolute;
+        left: 280px;
+        padding-top: 4%;
+    }
+}
+
+
+@media screen and (min-width: 600px){
+    #logo{
+        position: absolute;
+        left: 230px;
+        width: 50px;
+        padding-top: 2%;
+    }
+    h1{
+        font-family: 'Arial';
+        color: #fff;
+        position: absolute;
+        left: 287px;
+        padding-top: 4%;
+    }
+}
+
 /* SMALL DEVICES - TABLETS */
 
 @media screen and (min-width: 768px){
@@ -90,6 +137,20 @@
         width: 100%;
         height: 80px;
         background: #00cecb;
+        display: flex;
+    }
+    #logo{
+        position: absolute;
+        left: 170px;
+        width: 50px;
+        padding-top: 2.5%;
+    }
+    h1{
+        font-family: 'Arial';
+        color: #fff;
+        position: absolute;
+        left: 230px;
+        padding-top: 4%;
     }
     .barra{
         width: 400px;
@@ -212,7 +273,44 @@
 }
 /* LARGE DEVICES - WIDE SCREENS */
 
-@media screen and (min-width: 1280px){
-
-   
+@media screen and (min-width: 1200px){
+    .menu{
+        height: 100px;
+        background: #00cecb;
+    }
+    #logo{
+        position: absolute;
+        left: 820px;
+        padding-top: 0.5%;
+        width: 79px;
+    }
+    h1{
+        font-family: 'Arial';
+        color: #fff;
+        font-size: 29pt;
+        position: absolute;
+        left: 903px;
+        padding-top: 1.5%;
+    }
+   .barra{
+       display: none;
+   }
+   #icone{
+       display: none;
+   }
+     /* HOME */
+  .Home{
+    width: 100%;
+  }
+  .Home h2{
+      padding-left: 25px;
+      font-size: 2rem;
+      margin-top: 35px;
+  }
+  .Home p{
+      padding-left: 4%;
+      margin-top: 3%;
+      font-size: 1.5rem
+  } 
  }
+

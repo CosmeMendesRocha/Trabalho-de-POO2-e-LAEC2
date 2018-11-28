@@ -18,6 +18,19 @@
     height: 80px;
     background: #00cecb;
 }
+#logo{
+    position: absolute;
+    left: 131px;
+    width: 50px;
+    padding-top: 4%;
+}
+h1{
+    font-family: 'Arial';
+    color: #fff;
+    position: absolute;
+    left: 188px;
+    padding-top: 6%;
+}
 iframe{
     width: 100%;
     padding: 10px;
@@ -27,7 +40,7 @@ iframe{
  }
  #icone{
    cursor:  pointer;
-   padding: 20px;
+   padding: 10px;
     position: absolute;
     z-index: 1;
  }
